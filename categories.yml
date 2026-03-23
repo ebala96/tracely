@@ -1,0 +1,623 @@
+categories:
+  - name: Online Food Order
+    slug: online_food_order
+    icon: "🛵"
+    colour: "#EF4444"
+    keywords:
+      - food order
+      - online food
+    subcategories:
+      - name: Swiggy
+        slug: swiggy
+        icon: "🧡"
+        keywords:
+          - swiggy
+      - name: Zomato
+        slug: zomato
+        icon: "❤️"
+        keywords:
+          - zomato
+      - name: Other Delivery
+        slug: other_delivery
+        icon: "📦"
+        keywords:
+          - uber eats
+          - dunzo
+          - blinkit food
+          - food delivery
+
+  - name: Food & Dining
+    slug: food_dining
+    icon: "🍔"
+    colour: "#F97316"
+    keywords: []
+    subcategories:
+      - name: Fast Food
+        slug: fast_food
+        icon: "🍟"
+        keywords:
+          - dominos
+          - pizza hut
+          - mcdonalds
+          - kfc
+          - burger king
+          - subway
+          - wow momo
+      - name: Coffee & Cafes
+        slug: coffee_cafes
+        icon: "☕"
+        keywords:
+          - starbucks
+          - cafe coffee day
+          - ccd
+          - barista
+          - third wave
+          - blue tokai
+      - name: Breakfast
+        slug: breakfast
+        icon: "🥞"
+        keywords:
+          - breakfast
+          - idli
+          - dosa
+          - upma
+          - poha
+          - paratha
+      - name: Lunch
+        slug: lunch
+        icon: "🍱"
+        keywords:
+          - lunch
+          - thali
+          - dabba
+      - name: Dinner
+        slug: dinner
+        icon: "🍽️"
+        keywords:
+          - dinner
+          - biryani
+          - restaurant
+          - dining
+
+  - name: Transport
+    slug: transport
+    icon: "🚗"
+    colour: "#3B82F6"
+    keywords: []
+    subcategories:
+      - name: Cab & Auto
+        slug: cab_auto
+        icon: "🚖"
+        keywords:
+          - uber
+          - ola
+          - rapido
+          - namma yatri
+          - auto
+      - name: Bike & Scooter
+        slug: bike_scooter
+        icon: "🛵"
+        keywords:
+          - yulu
+          - bounce
+          - vogo
+      - name: Public Transport
+        slug: public_transport
+        icon: "🚇"
+        keywords:
+          - metro
+          - bmtc
+          - ksrtc
+          - bus
+      - name: Intercity Travel
+        slug: intercity_travel
+        icon: "🚆"
+        keywords:
+          - irctc
+          - redbus
+          - makemytrip flights
+          - indigo
+          - spicejet
+          - air india
+          - cleartrip
+      - name: Fuel
+        slug: fuel
+        icon: "⛽"
+        keywords:
+          - petrol
+          - diesel
+          - fuel
+          - hp petrol
+          - indian oil
+          - bharat petroleum
+
+  - name: Subscriptions
+    slug: subscriptions
+    icon: "📺"
+    colour: "#8B5CF6"
+    keywords: []
+    subcategories:
+      - name: Streaming Video
+        slug: streaming_video
+        icon: "🎬"
+        keywords:
+          - netflix
+          - amazon prime
+          - hotstar
+          - zee5
+          - sonyliv
+          - jiocinema
+      - name: Streaming Music
+        slug: streaming_music
+        icon: "🎵"
+        keywords:
+          - spotify
+          - youtube premium
+          - apple music
+          - gaana
+          - jiosaavn
+      - name: SaaS & Apps
+        slug: saas_apps
+        icon: "💻"
+        keywords:
+          - notion
+          - github
+          - figma
+          - dropbox
+          - adobe
+          - microsoft 365
+          - google one
+
+  - name: Shopping
+    slug: shopping
+    icon: "🛍️"
+    colour: "#EC4899"
+    keywords: []
+    subcategories:
+      - name: E-Commerce
+        slug: ecommerce
+        icon: "📦"
+        keywords:
+          - amazon
+          - flipkart
+          - meesho
+          - snapdeal
+          - tata cliq
+      - name: Fashion
+        slug: fashion
+        icon: "👗"
+        keywords:
+          - myntra
+          - ajio
+          - nykaa fashion
+          - zara
+          - h&m
+          - westside
+      - name: Beauty & Personal Care
+        slug: beauty
+        icon: "💄"
+        keywords:
+          - nykaa
+          - purplle
+          - mamaearth
+          - sugar cosmetics
+
+  - name: Utilities
+    slug: utilities
+    icon: "⚡"
+    colour: "#EAB308"
+    keywords: []
+    subcategories:
+      - name: Electricity & Water
+        slug: electricity_water
+        icon: "💡"
+        keywords:
+          - bescom
+          - tata power
+          - adani electricity
+          - bbmp
+          - bwssb
+      - name: Mobile & Internet
+        slug: mobile_internet
+        icon: "📱"
+        keywords:
+          - airtel
+          - jio
+          - bsnl
+          - vi
+          - act broadband
+          - you broadband
+          - hathway
+
+  - name: Health
+    slug: health
+    icon: "🏥"
+    colour: "#10B981"
+    keywords: []
+    subcategories:
+      - name: Pharmacy
+        slug: pharmacy
+        icon: "💊"
+        keywords:
+          - apollo pharmacy
+          - medplus
+          - netmeds
+          - 1mg
+          - pharmeasy
+      - name: Fitness
+        slug: fitness
+        icon: "🏋️"
+        keywords:
+          - cult fit
+          - healthkart
+          - gold's gym
+          - anytime fitness
+          - crossfit
+      - name: Doctor & Lab
+        slug: doctor_lab
+        icon: "🩺"
+        keywords:
+          - practo
+          - apollo hospital
+          - manipal hospital
+          - thyrocare
+          - lal path
+
+  - name: Finance
+    slug: finance
+    icon: "🏦"
+    colour: "#6B7280"
+    keywords: []
+    subcategories:
+      - name: Insurance
+        slug: insurance
+        icon: "🛡️"
+        keywords:
+          - lic
+          - hdfc life
+          - icici prudential
+          - star health
+          - tata aig
+      - name: Investments
+        slug: investments
+        icon: "📈"
+        keywords:
+          - sip
+          - mutual fund
+          - zerodha
+          - groww
+          - nps
+          - coin
+          - smallcase
+      - name: Loan & EMI
+        slug: loan_emi
+        icon: "💳"
+        keywords:
+          - emi
+          - loan
+          - hdfc emi
+          - bajaj finance
+          - home loan
+
+  - name: Groceries
+    slug: groceries
+    icon: "🛒"
+    colour: "#84CC16"
+    keywords: []
+    subcategories:
+      - name: Online Groceries
+        slug: online_groceries
+        icon: "🖥️"
+        keywords:
+          - bigbasket
+          - grofers
+          - blinkit
+          - jiomart
+          - zepto
+          - swiggy instamart
+      - name: Supermarket
+        slug: supermarket
+        icon: "🏪"
+        keywords:
+          - dmmart
+          - reliance fresh
+          - more supermarket
+          - dmart
+          - star bazaar
+          - lulu hypermarket
+      - name: Meat & Seafood
+        slug: meat_seafood
+        icon: "🥩"
+        keywords:
+          - licious
+          - freshtohome
+          - zappfresh
+
+  - name: Entertainment
+    slug: entertainment
+    icon: "🎭"
+    colour: "#EC4899"
+    keywords:
+      - entertainment
+      - leisure
+    subcategories:
+      - name: Movies & Cinema
+        slug: movies_cinema
+        icon: "🎬"
+        keywords:
+          - bookmyshow
+          - pvr
+          - inox
+          - cinepolis
+          - carnival cinemas
+          - movie
+          - movies
+          - cinema
+          - theatre
+          - multiplex
+      - name: Gaming
+        slug: gaming
+        icon: "🎮"
+        keywords:
+          - steam
+          - playstation
+          - xbox
+          - epic games
+          - google play games
+          - gaming
+      - name: Events & Concerts
+        slug: events_concerts
+        icon: "🎵"
+        keywords:
+          - bookmyshow event
+          - district app
+          - paytm insider
+          - concert
+          - event ticket
+          - zomato live
+
+  - name: Transfers
+    slug: transfers
+    icon: "💸"
+    colour: "#06B6D4"
+    keywords:
+      - transfer
+      - sent to
+      - send money
+    subcategories:
+      - name: Family & Relatives
+        slug: family_relatives
+        icon: "👨‍👩‍👧"
+        keywords:
+          - family
+          - relative
+          - relatives
+          - send home
+          - home transfer
+          - father
+          - mother
+          - brother
+          - sister
+          - wife
+          - husband
+          - son
+          - daughter
+          - parents
+      - name: Friends
+        slug: friends_transfer
+        icon: "🤝"
+        keywords:
+          - friend
+          - friends
+          - lend
+          - borrow
+          - split
+          - gpay friend
+          - phonepe friend
+      - name: Rent
+        slug: rent
+        icon: "🏠"
+        keywords:
+          - rent
+          - landlord
+          - house rent
+          - pg rent
+          - room rent
+          - owner
+      - name: Self Transfer
+        slug: self_transfer
+        icon: "🔄"
+        keywords:
+          - self
+          - own account
+          - savings transfer
+          - sweep
+
+  - name: Other
+    slug: other
+    icon: "📦"
+    colour: "#9CA3AF"
+    keywords: []
+    subcategories: []
+
+  # ── Income categories (txn_type: credit only) ────────────────────────────
+
+  - name: Salary & Income
+    slug: salary_income
+    icon: "💰"
+    colour: "#10B981"
+    txn_type: credit
+    keywords:
+      - salary
+      - sal cr
+      - sal credit
+      - payroll
+      - pay credit
+      - wages
+      - stipend
+    subcategories:
+      - name: Salary
+        slug: salary
+        icon: "🏢"
+        keywords:
+          - salary
+          - sal cr
+          - sal credit
+          - payroll
+          - pay credit
+          - wages
+          - ctc
+          - monthly pay
+      - name: Bonus & Incentive
+        slug: bonus_incentive
+        icon: "🎁"
+        keywords:
+          - bonus
+          - incentive
+          - performance pay
+          - variable pay
+          - commission
+
+  - name: Freelance & Business
+    slug: freelance_business
+    icon: "💼"
+    colour: "#F59E0B"
+    txn_type: credit
+    keywords:
+      - freelance
+      - consulting
+      - invoice
+      - client payment
+      - project payment
+      - contract payment
+    subcategories:
+      - name: Freelance
+        slug: freelance
+        icon: "🧑‍💻"
+        keywords:
+          - freelance
+          - freelancing
+          - gig
+          - upwork
+          - fiverr
+          - toptal
+      - name: Business Income
+        slug: business_income
+        icon: "🏪"
+        keywords:
+          - consulting
+          - invoice
+          - client payment
+          - project payment
+          - contract payment
+          - business income
+
+  - name: Investment Returns
+    slug: investment_returns
+    icon: "📈"
+    colour: "#06B6D4"
+    txn_type: credit
+    keywords:
+      - dividend
+      - interest credit
+      - int cr
+      - redemption
+      - maturity
+      - fd interest
+      - rd maturity
+    subcategories:
+      - name: Interest
+        slug: interest_income
+        icon: "🏦"
+        keywords:
+          - interest credit
+          - int cr
+          - int paid
+          - savings interest
+          - fd interest
+          - rd maturity
+          - interest on
+      - name: Dividends
+        slug: dividends
+        icon: "📊"
+        keywords:
+          - dividend
+          - div credit
+          - nse dividend
+          - bse dividend
+      - name: MF Redemption
+        slug: mf_redemption
+        icon: "💹"
+        keywords:
+          - redemption
+          - mutual fund credit
+          - mf redemption
+          - fund redemption
+          - sip redemption
+
+  - name: Refunds & Cashbacks
+    slug: refunds_cashbacks
+    icon: "↩️"
+    colour: "#8B5CF6"
+    txn_type: credit
+    keywords:
+      - refund
+      - cashback
+      - reversal
+      - chargeback
+      - credit note
+      - return credit
+    subcategories:
+      - name: Refund
+        slug: refund
+        icon: "🔄"
+        keywords:
+          - refund
+          - reversal
+          - chargeback
+          - credit note
+          - return credit
+          - amount reversed
+          - txn reversal
+      - name: Cashback
+        slug: cashback
+        icon: "💸"
+        keywords:
+          - cashback
+          - cash back
+          - reward credit
+          - reward points credit
+          - paytm cashback
+          - phonepe cashback
+
+  - name: Income Transfer
+    slug: income_transfer
+    icon: "💵"
+    colour: "#EC4899"
+    txn_type: credit
+    keywords:
+      - received from
+      - money received
+      - transfer received
+      - neft cr
+      - imps cr
+      - upi cr
+    subcategories:
+      - name: Received from Family
+        slug: received_family
+        icon: "👨‍👩‍👧"
+        keywords:
+          - received from family
+          - family transfer
+          - father sent
+          - mother sent
+          - parents sent
+          - home money
+      - name: Received from Friends
+        slug: received_friends
+        icon: "🤝"
+        keywords:
+          - received from friend
+          - friend sent
+          - split received
+          - splitwise

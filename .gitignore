@@ -1,0 +1,67 @@
+# ── Environment ──────────────────────────────────────────────────────────────
+.env
+!.env.example
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# uv
+uv.lock          # uncomment to ignore lock file (not recommended for reproducibility)
+
+# ── Node / Frontend ──────────────────────────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/.vite/
+*.local
+
+# ── Logs & PIDs ──────────────────────────────────────────────────────────────
+logs/
+*.log
+*.pid
+
+# ── Uploads (user PDF files — never commit) ──────────────────────────────────
+uploads/
+/tmp/spendly_uploads/
+
+# ── Database / Vector store local data ───────────────────────────────────────
+*.sqlite
+*.db
+
+# ── IDE & OS ─────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# ── Claude Code internal ─────────────────────────────────────────────────────
+.claude/
+
+# ── Docker volumes (if using local bind mounts) ───────────────────────────────
+postgres_data/
+qdrant_data/
+redis_data/
+nats_data/
+ollama_models/
+
+# ── Alembic — keep migrations, ignore compiled files ─────────────────────────
+backend/migrations/versions/__pycache__/
