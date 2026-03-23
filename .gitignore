@@ -22,7 +22,7 @@ env/
 ENV/
 
 # uv
-uv.lock          # uncomment to ignore lock file (not recommended for reproducibility)
+# uv.lock        # uncomment this line to ignore the lock file (not recommended)
 
 # ── Node / Frontend ──────────────────────────────────────────────────────────
 frontend/node_modules/
@@ -52,6 +52,9 @@ Thumbs.db
 *.swp
 *.swo
 *~
+
+# ── Local notes (not for repo) ───────────────────────────────────────────────
+TODO.md
 
 # ── Claude Code internal ─────────────────────────────────────────────────────
 .claude/

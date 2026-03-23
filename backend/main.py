@@ -46,6 +46,9 @@ app.include_router(categories.router)
 @app.on_event("startup")
 async def startup():
     await create_tables()
+    # Ensure upload directory exists
+    upload_dir = os.environ.get("UPLOAD_DIR", "/tmp/spendly_uploads")
+    Path(upload_dir).mkdir(parents=True, exist_ok=True)
 
 
 @app.get("/health")

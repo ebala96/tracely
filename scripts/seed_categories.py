@@ -48,7 +48,11 @@ async def seed():
                 await session.flush()  # get parent.id before inserting children
                 print(f"  added  {cat['slug']}")
             else:
-                print(f"  skip   {cat['slug']} (exists)")
+                parent.name   = cat["name"]
+                parent.icon   = cat.get("icon")
+                parent.colour = cat.get("colour")
+                await session.flush()
+                print(f"  updated {cat['slug']}")
 
             for sub in cat.get("subcategories") or []:
                 result = await session.execute(
@@ -56,17 +60,19 @@ async def seed():
                 )
                 existing_sub = result.scalar_one_or_none()
                 if existing_sub:
-                    print(f"    skip   {sub['slug']} (exists)")
-                    continue
-
-                session.add(Category(
-                    name=sub["name"],
-                    slug=sub["slug"],
-                    icon=sub.get("icon"),
-                    colour=cat.get("colour"),  # inherit parent colour
-                    parent_id=parent.id,
-                ))
-                print(f"    added  {sub['slug']}")
+                    existing_sub.name   = sub["name"]
+                    existing_sub.icon   = sub.get("icon")
+                    existing_sub.colour = cat.get("colour")
+                    print(f"    updated {sub['slug']}")
+                else:
+                    session.add(Category(
+                        name=sub["name"],
+                        slug=sub["slug"],
+                        icon=sub.get("icon"),
+                        colour=cat.get("colour"),  # inherit parent colour
+                        parent_id=parent.id,
+                    ))
+                    print(f"    added  {sub['slug']}")
 
         await session.commit()
 
